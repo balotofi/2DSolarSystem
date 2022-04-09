@@ -29,7 +29,7 @@ class SolarSystemBody(turtle.Turtle):
             math.log(self.mass, self.display_log_base),
             self.min_display_size,)
 
-        self.penup()
+        self.pendown()
         self.hideturtle()
 
         solar_system.add_body(self)
